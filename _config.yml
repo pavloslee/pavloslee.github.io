@@ -107,14 +107,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 analytics:
-  # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+  # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en-GB&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
   google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en-GB#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
@@ -305,7 +305,7 @@ jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
   # CSS is already minified upstream (Tailwind build ships tailwind.css; main.scss is compiled
   # with sass `style: compressed`). Re-minifying via cssminify2 mangles Tailwind v4 spacing
-  # tokens inside calc(), turning `var(--spacing)` into the invalid `var( -  - spacing)` and
+  # tokens inside calc(), turning `var(--spacing)` into the invalid `var( - - spacing)` and
   # breaking every spacing/positioning utility (e.g. .fixed-top -> broken navbar). Disable it.
   compress_css: false
   # JS minification is delegated to jekyll-terser (compress_javascript above is false).
