@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Post-Doctoral Fellow at <a href='#'>NTNU</a>
+subtitle: Post-Doctoral Fellow at <a href='https://www.ntnu.edu/'>NTNU</a>
 
 profile:
   align: right
