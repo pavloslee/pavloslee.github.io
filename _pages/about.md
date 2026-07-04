@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research goal is to develop safe AI agents for safety-critical applications of autonomous systems. In my approaches, I combine risk assessment with machine learning, such as deep learning and deep reinforcement learning. Currently, I am investigating ways to form and enhance the risk awareness of AI agents.
+My research goal is to develop safe AI agents for safety-critical operations of autonomous systems. In my approaches, I combine risk assessment with machine learning, such as deep learning and deep reinforcement learning. Currently, I am investigating ways to form and enhance the risk awareness of AI agents.
 
 Research Interests:
 Autonomous systems, Autonomous vehicles, Autonomous navigation, Collision avoidance, Safety, Risk assessment, Artificial Intelligence, Machine learning, Deep reinforcement learning, Deep learning, Risk awareness, Safe AI, Safe reinforcement learning.
