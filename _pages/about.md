@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Font Awesome icons](https://fontawesome.com/) "Post-Doctoral Fellow at <a href='https://www.ntnu.edu/'>NTNU</a>"
+subtitle: Post-Doctoral Fellow at <a href='https://www.ntnu.edu/'>NTNU</a>
 
 profile:
   align: right
