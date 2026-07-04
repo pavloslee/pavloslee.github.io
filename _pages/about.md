@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p><i class="fa-solid fa-mobile-screen-button"></i> +47 96982767</p>
     <p><a href='https://use.mazemap.com/?sharepoitype=poi&sharepoi=1002925418'><i class="fa-solid fa-briefcase"></i></a> Office 1.247</p>
     <p><a href='https://maps.app.goo.gl/HTTxXro9oq2KVYLLA'><i class="fa-solid fa-location-dot"></i></a> Professor J. H. L. Vogts veg 1, 7052 Trondheim, Norway</p>
 
