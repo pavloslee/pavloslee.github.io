@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href='https://use.mazemap.com/?sharepoitype=poi&sharepoi=1002925418'>Office 1.247</a></p>
+    <p><i class="fa-solid fa-briefcase"></i><a href='https://use.mazemap.com/?sharepoitype=poi&sharepoi=1002925418'>Office 1.247</a></p>
     <p><a href='https://maps.app.goo.gl/HTTxXro9oq2KVYLLA'>Professor J. H. L. Vogts veg 1, 7052 Trondheim, Norway</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
