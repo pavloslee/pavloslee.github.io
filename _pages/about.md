@@ -15,7 +15,7 @@ profile:
     <p><a href='https://maps.app.goo.gl/HTTxXro9oq2KVYLLA'><i class="fa-solid fa-location-dot"></i></a> Professor J. H. L. Vogts veg 1, 7052 Trondheim, Norway</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
