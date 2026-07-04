@@ -28,7 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here.
+My research goal is to develop safe AI agents during safety-critical applications of autonomous systems. In my approaches, I combine risk assessment with machine learning, such as deep learning and deep reinforcement learning. Currently, I am investigating ways to form and enhance the risk awareness of AI agents.
+
 <!-- Ok. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 <!-- Is this hidden? -->
