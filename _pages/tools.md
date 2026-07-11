@@ -35,7 +35,7 @@ For icons:
 
 * Font Awesome [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://fontawesome.com/){:target="_blank"}
 
-## Simulations
+## Software Packages
 
 The following are the list of sources provided by others. Please refer to the original sources for copyrights, terms of use, and more. And give the right credit.
 
