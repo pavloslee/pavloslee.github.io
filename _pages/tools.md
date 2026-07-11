@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research tools
+title: Research Tools
 permalink: /chat/
 nav: true
 nav_order: 2
