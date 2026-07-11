@@ -25,7 +25,7 @@ For icons:
 
 * Flaticon: 👉 [Open in a new tab](https://www.flaticon.com/){:target="_blank"}
 
-* Flaticon: 👉 [Open in a new tab](https://www.flaticon.com/){:target="_blank"}
+* Font Awesome: 👉 [Open in a new tab](https://fontawesome.com/){:target="_blank"}
 
 ## Third Party Sources
 
