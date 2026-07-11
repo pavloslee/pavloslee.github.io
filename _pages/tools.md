@@ -15,10 +15,17 @@ Use the link below to access the AI tool. Note that you will need to sign in wit
 
 A big part of research is communication, including presenations. I use copy-right free sources:
 
+For photos:
+
 * Pexels 👉 [Open in a new tab](https://www.pexels.com/){:target="_blank"}
 
 * Unsplash 👉 [Open in a new tab](https://unsplash.com/){:target="_blank"}
 
+For icons:
+
+* Flaticon: 👉 [Open in a new tab](https://www.flaticon.com/){:target="_blank"}
+
+* Flaticon: 👉 [Open in a new tab](https://www.flaticon.com/){:target="_blank"}
 
 ## Third Party Sources
 
