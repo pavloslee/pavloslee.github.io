@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learn Norwegian
+title: Let's Learn Norwegian
 permalink: /norwegian-trainer/
 nav: true
 nav_order: 3
