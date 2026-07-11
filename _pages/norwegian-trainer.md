@@ -2,7 +2,7 @@
 layout: page
 title: Norwegian Trainer
 permalink: /norwegian-trainer/
-nav: true
+nav: false
 nav_order: 2
 ---
 
