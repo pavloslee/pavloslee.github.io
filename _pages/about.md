@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Post-Doctoral Fellow at <a href='https://www.ntnu.edu/'>NTNU</a>
 
