@@ -6,6 +6,7 @@ nav: true
 nav_order: 3
 ---
 
+The following are some of the research tool
 ## LLMs for Literature Review
 
 Use the link below to access the AI tool. Note that you will need to sign in with a Google account to use the chat.
@@ -27,7 +28,7 @@ For icons:
 
 * Font Awesome [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://fontawesome.com/){:target="_blank"}
 
-## Third Party Sources
+## Simulations
 
 The following are the list of sources provided by others. Please refer to the original sources for copyrights, terms of use, and more. And give the right credit.
 
