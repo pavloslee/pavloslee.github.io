@@ -13,7 +13,7 @@ Use the link below to access the AI tool. Note that you will need to sign in wit
 
 ## Graphics
 
-A big part of research is communication, including presenations. I use copy-right free sources:
+A big part of good research is clear and effective communication to other researchers and wider public. For my communication I use the following sources.
 
 For photos:
 
