@@ -3,7 +3,7 @@ layout: page
 title: Norwegian Trainer
 permalink: /norwegian-trainer/
 nav: true
-nav_order: 6
+nav_order: 2
 ---
 
 <iframe src="{{ '/assets/html/norwegian-trainer.html' | relative_url }}"
