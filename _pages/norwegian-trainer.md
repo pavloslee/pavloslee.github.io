@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Norwegian Trainer
+title: Learn Norwegian
 permalink: /norwegian-trainer/
-nav: false
-nav_order: 2
+nav: true
+nav_order: 3
 ---
 
 <iframe src="{{ '/assets/html/norwegian-trainer.html' | relative_url }}"
