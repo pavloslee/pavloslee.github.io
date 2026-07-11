@@ -17,15 +17,15 @@ A big part of research is communication, including presenations. I use copy-righ
 
 For photos:
 
-* Pexels 👉 [Open in a new tab](https://www.pexels.com/){:target="_blank"}
+* Pexels [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.pexels.com/){:target="_blank"}
 
-* Unsplash 👉 [Open in a new tab](https://unsplash.com/){:target="_blank"}
+* Unsplash [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://unsplash.com/){:target="_blank"}
 
 For icons:
 
-* Flaticon: 👉 [Open in a new tab](https://www.flaticon.com/){:target="_blank"}
+* Flaticon [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.flaticon.com/){:target="_blank"}
 
-* Font Awesome: 👉 [Open in a new tab](https://fontawesome.com/){:target="_blank"}
+* Font Awesome [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://fontawesome.com/){:target="_blank"}
 
 ## Third Party Sources
 
