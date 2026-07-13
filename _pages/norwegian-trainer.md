@@ -20,7 +20,7 @@ Additional learning materials are provided by LearnNoW [<i class="fa-solid fa-ar
 
 ## Norwegian App
 
-To improve my Norwegian, I have created an app. It has significantly helped me learn long sentences with everyday vocabulary. You can use this app for free and help you prepare for your writing and speaking exams.
+To improve my Norwegian, I have created an app. It has significantly helped me learn long sentences with everyday vocabulary. You can use this app for free and help you prepare for your writing and speaking exams. More updates are on the way.
 
 Tip: Try not to memorize single words, but words within a sentence. Context and meaning is what boost your learning, not mere memorization!
 
