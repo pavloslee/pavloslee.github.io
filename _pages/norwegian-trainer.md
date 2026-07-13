@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Let's Learn Norwegian
+title: Learn Norwegian
 permalink: /norwegian-trainer/
 nav: true
 nav_order: 4
 ---
 
-I share my experience learning Norwegian and some tips.
+I share my experience and some tips learning Norwegian.
 
+I took Norwegian level 1 & 2 from NTNU's language courses .
 I have created an app that helped me significantly improve my Norwegian. Hope it helps you too!
 
 
