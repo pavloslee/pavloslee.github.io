@@ -12,6 +12,7 @@ I share my experience and some tips learning Norwegian.
 
 I took Norwegian level 1 & 2 from NTNU's language courses [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.ntnu.edu/norwegiancourse){:target="_blank"}. They can be quite intense, but the cirriculumn is very well structured. If you are wondering between the physical and digital courses, I took the physical one for level 1, which I personally found it very useful. I took the digital course for level 2, which worked perfectly well. 
 
+If you are looking for affordable (almost free) Norwegian courses level 1 & 2, check out Internasjonal Velferdsforening Norge [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.ivfnorge.no/){:target="_blank"}.
 <!--If you cannot take the NTNU's language courses for any reason and you are looking for free alternatives, check out her -->
 
 ## Study Materials
