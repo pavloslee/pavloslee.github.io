@@ -22,6 +22,8 @@ Additional learning materials are provided by LearnNoW [<i class="fa-solid fa-ar
 
 To improve my Norwegian, I have created an app. It has significantly helped me learn long sentences with everyday vocabulary. You can use this app for free and help you prepare for your writing and speaking exams. More updates are on the way.
 
+How to use: Add or upload the texts that you want to study from the courses and start training the sentences word by word at different difficulty levels.
+
 Tip: Try not to memorize single words, but words within a sentence. Context and meaning is what boost your learning, not mere memorization!
 
 <iframe src="{{ '/assets/html/norwegian-trainer.html' | relative_url }}"
