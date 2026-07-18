@@ -19,6 +19,10 @@ If you are looking for affordable (almost free) Norwegian courses level 1 & 2, c
 
 Additional learning materials are provided by LearnNoW [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.ntnu.edu/learnnow){:target="_blank"}
 
+## Norwegian Language Cafe
+
+There many places where you can find free language cafes, such as NTNU International Researcher Support (NIRS) [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.ntnu.edu/nirs){:target="_blank"}, Frikirken Trondheim [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://trondheim.frikirke.no/livet/aktiviteter/sprakkafe){:target="_blank"}, and many more.
+
 ## Norwegian App
 
 To improve my Norwegian, I have created an app. It has significantly helped me learn long sentences with everyday vocabulary. You can use this app for free and help you prepare for your writing and speaking exams. More updates are on the way.
