@@ -35,6 +35,10 @@ For icons:
 
 * Font Awesome [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://fontawesome.com/){:target="_blank"}
 
+For drawing:
+
+* Inkscape (for svg) [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://inkscape.org/){:target="_blank"}
+
 ## Software Packages
 
 The following are the list of sources provided by others. Please refer to the original sources for copyrights, terms of use, and more. And give the right credit.
