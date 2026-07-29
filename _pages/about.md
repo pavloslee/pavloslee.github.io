@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Post-Doctoral Fellow at <a href='https://www.ntnu.edu/'>NTNU</a>
+subtitle: Post-Doctoral Fellow, Department of Marine Technology @<a href='https://www.ntnu.edu/'>NTNU</a>
 
 profile:
   align: right
