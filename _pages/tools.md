@@ -3,7 +3,7 @@ layout: page
 title: Research Tools
 permalink: /chat/
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 The following are some of the research tools that you can use.
