@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"/> <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <title>jekyll-jupyter-notebook20260917-4018-irtpv6</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script> <style type="text/css">
+<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"/> <meta content="width=device-width, initial-scale=1.0" name="viewport"/> <title>jekyll-jupyter-notebook20260917-4018-x3499f</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script> <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7777,6 +7777,82 @@ a.anchor-link {
     display: inline-block;
     white-space: normal;
   }
-</style> </head> <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light"> <main><div class="jp-Cell jp-CodeCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"> <div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div> <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline"> <div class="cm-editor cm-s-jupyter"> <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">version_info</span>
-</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child jp-OutputArea-executeResult"> <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div> <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0"> <pre>sys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)</pre> </div> </div> </div> </div> </div> </main> </body> </html>
+</style> </head> <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light"> <main> <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt"> </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown"> <p><a href="https://colab.research.google.com/github/pavloslee/pavloslee.github.io/blob/main/TMR4130_bayesian_network.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p> </div> </div> </div> </div> <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt"> </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown"> <h1 id="Bayesian-network">Bayesian network<a class="anchor-link" href="#Bayesian-network">¶</a></h1><p>Text ✅</p> </div> </div> </div> </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell"> <div class="jp-Cell-inputWrapper" tabindex="0"> <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser"> </div> <div class="jp-InputArea jp-Cell-inputArea"> <div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div> <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline"> <div class="cm-editor cm-s-jupyter"> <div class="highlight hl-python"><pre><span></span><span class="c1"># Step 1: Install pgmpy in Colab</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pgmpy</span> <span class="o">-</span><span class="n">q</span>
+
+
+<span class="c1"># Step 2: Import libraries</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pgmpy.models</span><span class="w"> </span><span class="kn">import</span> <span class="n">DiscreteBayesianNetwork</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pgmpy.factors.discrete</span><span class="w"> </span><span class="kn">import</span> <span class="n">TabularCPD</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pgmpy.inference</span><span class="w"> </span><span class="kn">import</span> <span class="n">VariableElimination</span>
+
+<span class="c1"># Step 3: Define the network structure (Edge from Rain -&gt; Sprinkler)</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">DiscreteBayesianNetwork</span><span class="p">([(</span><span class="s1">'Rain'</span><span class="p">,</span> <span class="s1">'Sprinkler'</span><span class="p">)])</span>
+
+<span class="c1"># Step 4: Define the CPT for the TOP node (Rain)</span>
+<span class="c1"># P(Rain = False) = 0.8, P(Rain = True) = 0.2</span>
+<span class="n">cpd_rain</span> <span class="o">=</span> <span class="n">TabularCPD</span><span class="p">(</span>
+    <span class="n">variable</span><span class="o">=</span><span class="s1">'Rain'</span><span class="p">,</span>
+    <span class="n">variable_card</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[[</span><span class="mf">0.8</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.2</span><span class="p">]],</span>
+    <span class="n">state_names</span><span class="o">=</span><span class="p">{</span><span class="s1">'Rain'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'False'</span><span class="p">,</span> <span class="s1">'True'</span><span class="p">]}</span>
+<span class="p">)</span>
+
+<span class="c1"># Step 5: Define the CPT for the CHILD node (Sprinkler) given Rain</span>
+<span class="c1"># P(Sprinkler | Rain)</span>
+<span class="n">cpd_sprinkler</span> <span class="o">=</span> <span class="n">TabularCPD</span><span class="p">(</span>
+    <span class="n">variable</span><span class="o">=</span><span class="s1">'Sprinkler'</span><span class="p">,</span>
+    <span class="n">variable_card</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span>
+        <span class="p">[</span><span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.99</span><span class="p">],</span>  <span class="c1"># P(Sprinkler = False | Rain=False, Rain=True)</span>
+        <span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">]</span>   <span class="c1"># P(Sprinkler = True  | Rain=False, Rain=True)</span>
+    <span class="p">],</span>
+    <span class="n">evidence</span><span class="o">=</span><span class="p">[</span><span class="s1">'Rain'</span><span class="p">],</span>
+    <span class="n">evidence_card</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span>
+    <span class="n">state_names</span><span class="o">=</span><span class="p">{</span>
+        <span class="s1">'Sprinkler'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'False'</span><span class="p">,</span> <span class="s1">'True'</span><span class="p">],</span>
+        <span class="s1">'Rain'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'False'</span><span class="p">,</span> <span class="s1">'True'</span><span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+
+<span class="c1"># Step 6: Add CPTs to model and validate network structure</span>
+<span class="n">model</span><span class="o">.</span><span class="n">add_cpds</span><span class="p">(</span><span class="n">cpd_rain</span><span class="p">,</span> <span class="n">cpd_sprinkler</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">model</span><span class="o">.</span><span class="n">check_model</span><span class="p">()</span>  <span class="c1"># Checks that probabilities sum to 1.0</span>
+
+<span class="c1"># Step 7: Perform inference on the TOP node (Rain)</span>
+<span class="n">inference</span> <span class="o">=</span> <span class="n">VariableElimination</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
+
+<span class="c1"># Query 1: Prior probability of the top node (Rain)</span>
+<span class="n">top_node_prior</span> <span class="o">=</span> <span class="n">inference</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">variables</span><span class="o">=</span><span class="p">[</span><span class="s1">'Rain'</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"--- Prior Distribution of Top Node (Rain) ---"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">top_node_prior</span><span class="p">)</span>
+
+<span class="c1"># Query 2: Infer top node (Rain) given evidence about the bottom node (Sprinkler = True)</span>
+<span class="n">top_node_posterior</span> <span class="o">=</span> <span class="n">inference</span><span class="o">.</span><span class="n">query</span><span class="p">(</span>
+    <span class="n">variables</span><span class="o">=</span><span class="p">[</span><span class="s1">'Rain'</span><span class="p">],</span>
+    <span class="n">evidence</span><span class="o">=</span><span class="p">{</span><span class="s1">'Sprinkler'</span><span class="p">:</span> <span class="s1">'True'</span><span class="p">}</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Posterior Distribution of Top Node (Rain | Sprinkler=True) ---"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">top_node_posterior</span><span class="p">)</span>
+</pre></div> </div> </div> </div> </div> <div class="jp-Cell-outputWrapper"> <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser"> </div> <div class="jp-OutputArea jp-Cell-outputArea"> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0"> <pre>   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">0.0/2.4 MB</span> <span class="ansi-red-fg">?</span> eta <span class="ansi-cyan-fg">-:--:--</span>   <span class="ansi-red-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span><span class="ansi-red-intense-fg">╸</span> <span class="ansi-green-fg">2.4/2.4 MB</span> <span class="ansi-red-fg">154.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:01</span>   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">2.4/2.4 MB</span> <span class="ansi-red-fg">66.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">0.0/165.4 kB</span> <span class="ansi-red-fg">?</span> eta <span class="ansi-cyan-fg">-:--:--</span>   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">165.4/165.4 kB</span> <span class="ansi-red-fg">13.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+</pre> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0"> <pre>/usr/local/lib/python3.12/dist-packages/pgmpy/estimators/__init__.py:4: FutureWarning: `pgmpy.estimators.StructureScore` is deprecated and will be removed in v1.3.0. Use `pgmpy.structure_score` instead.
+  from .StructureScore import (
+</pre> </div> </div> <div class="jp-OutputArea-child"> <div class="jp-OutputPrompt jp-OutputArea-prompt"></div> <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0"> <pre>--- Prior Distribution of Top Node (Rain) ---
++-------------+-------------+
+| Rain        |   phi(Rain) |
++=============+=============+
+| Rain(False) |      0.8000 |
++-------------+-------------+
+| Rain(True)  |      0.2000 |
++-------------+-------------+
+
+--- Posterior Distribution of Top Node (Rain | Sprinkler=True) ---
++-------------+-------------+
+| Rain        |   phi(Rain) |
++=============+=============+
+| Rain(False) |      0.9938 |
++-------------+-------------+
+| Rain(True)  |      0.0062 |
++-------------+-------------+
+</pre> </div> </div> </div> </div> </div> </main> </body> </html>
