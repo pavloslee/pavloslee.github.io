@@ -29,6 +29,8 @@ For photos:
 
 * Unsplash [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://unsplash.com/){:target="_blank"}
 
+* Vecteezy [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.vecteezy.com/){:target="_blank"}
+
 For icons:
 
 * Flaticon [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.flaticon.com/){:target="_blank"}
