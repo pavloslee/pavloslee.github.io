@@ -13,7 +13,7 @@ nav_order: 2
         loading="lazy">
 </iframe>
 
-## Problem
+## Colab Codes
 
 Please report to me if you find any bug (paul.lee@ntnu.no). Thanks!
 
