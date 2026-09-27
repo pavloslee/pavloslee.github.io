@@ -12,4 +12,6 @@ nav_order: 2
         loading="lazy">
 </iframe>
 
+Please report to me if you find any bug (paul.lee@ntnu.no). Thanks!
+
 <!-- Permanent residence, beautiful language; context is important; frikirke; other sources to learn norwegian; links from university; -->
