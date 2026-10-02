@@ -11,3 +11,17 @@ nav_order: 3
 * Topic: Reinforcement learning | Filters: Journal articles [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://notebook.google.com/notebook/33cd2cef-1ce3-4f47-abae-2e2f7b18c010/preview){:target="_blank"}
 
 * Topic: Autonomous ship | Filters: Journal articles [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://notebook.google.com/notebook/30412014-1dc9-4cb7-9789-4c6101662593/preview){:target="_blank"}
+
+<script>
+  document.querySelectorAll('a[data-tool]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({
+          path: 'tool-' + a.dataset.tool,
+          title: 'Opened ' + a.dataset.tool,
+          event: true
+        });
+      }
+    });
+  });
+</script>
