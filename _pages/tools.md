@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tools
-permalink: /chat/
+permalink: /tools/
 nav: true
 nav_order: 4
 ---
