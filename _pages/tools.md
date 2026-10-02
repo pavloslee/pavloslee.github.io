@@ -3,7 +3,7 @@ layout: page
 title: Tools
 permalink: /chat/
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <!-- The following are some of tools that you can use.
