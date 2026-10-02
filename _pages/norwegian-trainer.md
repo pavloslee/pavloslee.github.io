@@ -3,7 +3,7 @@ layout: page
 title: Learn Norwegian
 permalink: /norwegian-trainer/
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 I share my experience and some tips learning Norwegian.
