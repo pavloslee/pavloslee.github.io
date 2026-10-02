@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Research Tools
+title: Tools
 permalink: /chat/
 nav: true
 nav_order: 3
 ---
 
-The following are some of the research tools that you can use.
+<!-- The following are some of tools that you can use.
 
 ## Literature Review
 
@@ -17,7 +17,7 @@ Do NOT use Google Scholar for literature review, as you have limited control ove
 * Engineering Village [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.engineeringvillage.com/){:target="_blank"}
 
 Use the link below to access the AI tool. Note that you will need to sign in with a Google account to use the chat.
-[<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://notebooklm.google.com/notebook/330217ff-e4d3-4cf3-970e-984b334b1992/preview){:target="_blank"}
+[<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://notebooklm.google.com/notebook/330217ff-e4d3-4cf3-970e-984b334b1992/preview){:target="_blank"} -->
 
 ## Graphics
 
