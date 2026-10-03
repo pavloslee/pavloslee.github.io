@@ -6,14 +6,22 @@ nav: true
 nav_order: 3
 ---
 
-## Bayesian Belief Network Simulator
+<!--
+## Bayesian Belief Network Simulator -->
 
 <!--
 <iframe src="{{ '/assets/html/ANN_Simulator.html' | relative_url }}"
         style="width: 100%; height: 90vh; border: none; border-radius: 8px;"
         loading="lazy">
-</iframe>
+</iframe> -->
 
+## How to use
+
+TBA
+
+Please report to me if you find any bug (paul.lee@ntnu.no). Thanks!
+
+<!--
 ## Colab Codes
 
 * Problem 1: Minimization, 1D [<i class="fa-solid fa-arrow-up-right-from-square"></i>](https://colab.research.google.com/drive/11tzBEymLnrBwXlKJt3P02EG_PgM8uJD7?usp=sharing){:target="_blank"}
