@@ -9,7 +9,7 @@ nav_order: 2
 ## Artificial Neural Network Simulator
 
 <iframe src="{{ '/assets/html/ANN_Simulator.html' | relative_url }}"
-        style="width: 150%; height: 90vh; border: none; border-radius: 8px;"
+        style="width: 100%; height: 90vh; border: none; border-radius: 8px;"
         loading="lazy">
 </iframe>
 
