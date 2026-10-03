@@ -13,7 +13,7 @@ nav_order: 2
         loading="lazy">
 </iframe>
 
-## How to use it
+## How to use
 
 TBA
 
