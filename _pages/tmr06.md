@@ -2,7 +2,7 @@
 layout: page
 title: TMR06
 permalink: /tmr06/
-nav: true
+nav: false
 nav_order: 2
 ---
 
